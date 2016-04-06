@@ -1,0 +1,80 @@
+/*
+**
+** All rights reserved (c) 2016-17
+** Coded by K3N1 && designed by zanutsec
+**
+*/
+
+html, * {
+	padding: 0;
+	margin: 0;
+}
+.vuln {
+	color: lime;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+.vulnn {
+	color: #16a085;
+	font-weight: bold;
+}
+.notvulnn {
+	color: #c0392b;
+}
+.notvuln {
+	color: red;
+}
+body {
+	background: black;
+	font-family: 'Raleway','Lucida Console', sans-serif;
+	color: #FFF;
+}
+
+h1 {
+	font-family: 'Raleway','Lucida Console', sans-serif;
+	margin: 25px auto;
+}
+
+div.content-tool {
+	width: 100%;
+	background-color: #f2f2f2;
+	height: auto;
+	margin: 35px auto;
+	box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.45);
+	padding-bottom: 15px;
+}
+
+form textarea {
+	padding: 8px;
+	width: 260px;
+	margin-top: 10px;
+	font-family: 'Raleway','Lucida Console', sans-serif;
+	background: -moz-linear-gradient(top, rgba(9,199,247,1) 0%, rgba(84,181,242,1) 1%, rgba(0,117,234,1) 100%);
+	border-radius: 2px;
+	border: 0;
+	transition: 0.6s;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	width: 260px;
+	margin-top: 10px;
+	border: 0;
+	background: -moz-linear-gradient(top, rgba(9,199,247,1) 0%, rgba(84,181,242,1) 1%, rgba(0,117,234,1) 100%);
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Raleway';
+}
+
+input[type="submit"]:focus {
+	background: #0051FF;
+}
+
+p{
+	color: #fff;
+	font-family: 'Raleway';
+	font-size: 13px;
+	padding: 5px;
+}
